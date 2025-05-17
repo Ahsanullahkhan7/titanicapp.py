@@ -1,4 +1,0 @@
-pandas
-train_test_split
-DecisionTreeClassifier
-accuracy_score, confusion_matrix, classification_report
