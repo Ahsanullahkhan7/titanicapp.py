@@ -25,7 +25,7 @@ def main():
    col1,col2 = st.columns(2)
    with col1:
       Pclass = st.selectbox('Passenger class', options=[1,2,3], format_func=lambda X:f'class{X}')
-      Sex = st.radio('Sex', options=['male', 'female'])
+      Sex = st.radio('Sex', options=['0', '1'])
       Age = st.slider('Age', min_value=0, max_value=100, value=30)
    with col2:
       SibSp = st.slider('Siblings/Spouses Aboard:', min_value=0 ,max_value=10, value=0) 
